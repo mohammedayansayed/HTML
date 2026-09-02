@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="13style.css">
+    <style>
+        body{
+            background-color: black;
+            color: bisque;
+
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Student Registration Form</h1>
+    <form action="/submit" method="post">
+        <label for="name">Full Name</label></br>
+
+        <input
+        type="text"
+        id="name"
+        name="name"
+        placeholder="Enter your name"
+        required/></br></br>
+
+        <label for="email">Email</label></br>
+
+        <input
+        type="email"
+        id="email"
+        name="email"
+        placeholder="Enter your email"
+        required/></br></br>
+
+
+        <label for="password">Password</label></br>
+
+        <input
+        type="number"
+        id="password"
+        name="password"
+        placeholder="Enter your password"
+        required/></br></br>
+
+        <label for="Date">Date of Birth</label></br>
+
+        <input 
+        type="Date"
+        id="Date"
+        name="Date"
+        placeholder="Enter your Date of Birth"
+        required/></br></br>
+
+        <p>Gender</p></br>
+
+        <input
+        type="Radio"
+        id="Male"
+        name="gender"
+        value="Male"/>
+        <label for="Male">Male</label>
+
+        <input
+        type="Radio"
+        id="Femal"
+        name="gender"
+        value="Female"/>
+        <label for="Female">Female</label>
+
+        <p>Hobby</p>
+
+        <input
+        type="Checkbox"
+        id="Hobby"
+        name="Hobby"
+        value="Reading"/>
+        <label for="Hobby1">Reading</label>
+
+
+        <input
+        type="Checkbox"
+        id="Hobby"
+        name="Hobby"
+        value="Coding"/>
+        <label for="Hobby2">Coding</label></br></br>
+
+
+        <label for="Photo">Upload Photo</label></br>
+
+        <input
+        type="file"
+        id="photo"
+        name="photo"/></br></br>
+
+        <input
+        type="Submit"
+        value="Register"/>
+
+        <input
+        type="Reset"
+        value="Claer form"/>
+
+
+        <fieldset>
+            <legend>Course Detail</legend></br>
+            <label for="course">Choose a course:</label>
+            <select
+            id="course"
+            name="course">
+            <optgroup label="Frontend">
+                <option value="HTML" selected>HTML</option>
+                <option value="CSS">CSS</option>
+            </optgroup>
+            <optgroup label="Backend">
+                <option value="Node">Node.js</option>
+            </optgroup>
+            </select></br></br>
+
+
+            <label for="msg">  Why do want to join:</label></br>
+            <textarea
+            id="msg"
+            name="msg"
+            rows="6"
+            cols="35"
+            placeholder="tell us brefily"></textarea>
+
+        </fieldset>
+
+
+
+
+
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </form>
+    
+</body>
+</html>

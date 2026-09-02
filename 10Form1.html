@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Student Registration Form</h1>
+    <form action="/submit" method="post">
+        <label>Full Name</label><br/>
+
+        <input
+        type="text"
+        id="name"
+        name="name"
+        placeholder="Enter your name"
+        required/><br/></br>
+
+        <label> Email</label><br/>
+        <input
+        type="Email"
+        id="Email"
+        name="Email"
+        placeholder="Enter your Email"
+        required/><br/><br/>
+
+        <label> Password</label><br/>
+        <input
+        type="Password"
+        id="Password"
+        name="Pasword"
+        placeholder="Enter your Password"
+        required/></br><br/>
+
+        <label> Date Of Birth</label><br/>
+        <input
+        type="Date"
+        id="Date"
+        name="Date"
+        placeholder="Enter your Date Of Birth"
+        required/></br><br/>
+
+        <p>Gender</p><br/>
+        <input
+        type="Radio"
+        id="Male"
+        name="Gender"
+        value="Male"/>
+        <label for="male">Male</label>
+
+        <input
+        type="Radio"
+        id="Feamle"
+        name="Gender"
+        value="Female"/>
+        <label for="female">Feamle</label><br/>
+
+        <p>Hobbies</p>
+        <input
+        type="Checkbox"
+        id="Hobby"
+        name="Hobby"
+        value="Reading"/>
+        <label for="Hobby1">Reading</label>
+
+        <input
+        type="Checkbox"
+        id="Hobby"
+        name="Hobby"
+        value="Coding"/>
+        <label for="Hobby2">Coding</label><br/>
+
+        <label for="Photo">Upload Photo</label>
+        <input
+        type="file"
+        id="photo"
+        name="Photo"/><br/></br>
+
+        <input 
+        type="submit"
+        value="Register"/>
+
+        <input
+        type="reset"
+        Value="Clera Form"/>
+    </form>
+    
+</body>
+</html>
